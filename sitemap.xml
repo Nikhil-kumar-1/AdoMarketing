@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      >
+  <url>
+    <loc>https://adonomicstechnologies.com/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://adonomicstechnologies.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adonomicstechnologies.com/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- SEO Services -->
+  <url><loc>https://adonomicstechnologies.com/onpage</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/offpage</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/technical</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/ai-seo</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/local-seo</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/seo</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://adonomicstechnologies.com/seo-audits</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Social Media Marketing -->
+  <url><loc>https://adonomicstechnologies.com/smm</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/fb</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://adonomicstechnologies.com/insta</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://adonomicstechnologies.com/twitter</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://adonomicstechnologies.com/linkedin</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://adonomicstechnologies.com/influencer-marketing</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://adonomicstechnologies.com/social-media-management</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Advertising -->
+  <url><loc>https://adonomicstechnologies.com/ppc</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/meta-ads</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/google-ads</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/display</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Content Services -->
+  <url><loc>https://adonomicstechnologies.com/content</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/blog-writing</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://adonomicstechnologies.com/video-content</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://adonomicstechnologies.com/infographics</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Analytics -->
+  <url><loc>https://adonomicstechnologies.com/analytics</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/google-analytics</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/conversion-tracking</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/roi-analysis</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Development -->
+  <url><loc>https://adonomicstechnologies.com/development</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/web-development</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/uiux</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/app-development</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Other pages -->
+  <url><loc>https://adonomicstechnologies.com/portfolio</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/teams</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://adonomicstechnologies.com/branding</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://adonomicstechnologies.com/privacy</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://adonomicstechnologies.com/terms</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://adonomicstechnologies.com/paid-marketing</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/services</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://adonomicstechnologies.com/quote</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://adonomicstechnologies.com/strategy</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  
+  <!-- Catch all - NotFound not included on sitemap -->
+
+</urlset>
