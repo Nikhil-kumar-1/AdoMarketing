@@ -6,6 +6,9 @@ import TestimonialAndContact from "../Testimonial/Testimonial";
 import { Helmet } from "react-helmet-async";
 import ServiceHome from "../Service/ServiceHome";
 
+import ScrollServed from "../ScrollCompanyServed/ScrollServed";
+import Scroll from "../Scroll/Scroll";
+
 const Home = () => {
   return (
     <div>
@@ -41,6 +44,7 @@ const Home = () => {
       <AboutSection />
       <Gallery />
       <ServiceHome />
+      <ScrollServed />
       <TestimonialAndContact />
     </div>
   );
