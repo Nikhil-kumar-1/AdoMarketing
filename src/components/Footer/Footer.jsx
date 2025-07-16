@@ -53,10 +53,10 @@ const Footer = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_qy56rhi",
-        "template_frdq98g",
+        "service_xdbfk7t",
+        "template_80lezn6",
         e.target,
-        "sn-1NVMEL9d-jfHrj"
+        "YvKuhnTIxk7h_qqYN"
       )
       .then(
         () => {

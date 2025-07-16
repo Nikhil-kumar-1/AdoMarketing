@@ -48,15 +48,13 @@ const TestimonialAndContact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission
-    emailjs.sendForm('service_qy56rhi', 'template_frdq98g', e.target, 'sn-1NVMEL9d-jfHrj')
+    emailjs.sendForm('service_mcwrpxo', 'template_kgwrfqe', e.target, 'YvKuhnTIxk7h_qqYN')
       .then(() => {
         alert("Thank you for your message! We will contact you soon.");
         setFormData({ name: "", email: "", phone: "", message: "", subject:"" }); 
       }, (error) => {
         console.log('Error:', error.text);
       });
-    
-    
   };
 
   return (
@@ -85,7 +83,7 @@ const TestimonialAndContact = () => {
                 viewport={{ once: true }}
                 whileHover={{ y: -5 }}
               >
-                <div className="text-green-600 text-4xl mb-4">“</div>
+                <div className="text-green-600 text-4xl mb-4">"</div>
                 <p className="text-gray-700 mb-6 italic">{testimonial.quote}</p>
                 <div className="flex items-center">
                   <img
@@ -134,13 +132,28 @@ const TestimonialAndContact = () => {
                       placeholder="Your name"
                       value={formData.name}
                       onChange={handleChange}
+                      required
                     />
                   </div>
                   <div>
-                    <label
-                      htmlFor="email"
-                      className="block text-green-100 mb-2"
-                    >
+                    <label htmlFor="phone" className="block text-green-100 mb-2">
+                      Phone Number
+                    </label>
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      value={formData.phone}
+                      onChange={handleChange}
+                      className="w-full px-4 py-3 rounded-lg bg-green-700 border border-green-500 text-white placeholder-green-300 focus:outline-none focus:ring-2 focus:ring-green-300"
+                      placeholder="Your phone number"
+                      required
+                    />
+                  </div>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <label htmlFor="email" className="block text-green-100 mb-2">
                       Email
                     </label>
                     <input
@@ -151,31 +164,27 @@ const TestimonialAndContact = () => {
                       onChange={handleChange}
                       className="w-full px-4 py-3 rounded-lg bg-green-700 border border-green-500 text-white placeholder-green-300 focus:outline-none focus:ring-2 focus:ring-green-300"
                       placeholder="your@email.com"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="subject" className="block text-green-100 mb-2">
+                      Subject
+                    </label>
+                    <input
+                      type="text"
+                      id="subject"
+                      name="subject"
+                      value={formData.subject}
+                      onChange={handleChange}
+                      className="w-full px-4 py-3 rounded-lg bg-green-700 border border-green-500 text-white placeholder-green-300 focus:outline-none focus:ring-2 focus:ring-green-300"
+                      placeholder="How can we help?"
+                      required
                     />
                   </div>
                 </div>
                 <div>
-                  <label
-                    htmlFor="subject"
-                    className="block text-green-100 mb-2"
-                  >
-                    Subject
-                  </label>
-                  <input
-                    type="text"
-                    id="subject"
-                    name="subject"
-                    value={formData.subject}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg bg-green-700 border border-green-500 text-white placeholder-green-300 focus:outline-none focus:ring-2 focus:ring-green-300"
-                    placeholder="How can we help?"
-                  />
-                </div>
-                <div>
-                  <label
-                    htmlFor="message"
-                    className="block text-green-100 mb-2"
-                  >
+                  <label htmlFor="message" className="block text-green-100 mb-2">
                     Message
                   </label>
                   <textarea
@@ -186,6 +195,7 @@ const TestimonialAndContact = () => {
                     onChange={handleChange}
                     className="w-full px-4 py-3 rounded-lg bg-green-700 border border-green-500 text-white placeholder-green-300 focus:outline-none focus:ring-2 focus:ring-green-300"
                     placeholder="Tell us about your project..."
+                    required
                   ></textarea>
                 </div>
                 <div>

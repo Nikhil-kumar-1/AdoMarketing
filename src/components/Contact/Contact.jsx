@@ -26,10 +26,10 @@ const ContactPage = () => {
     // Handle form submission
     emailjs
       .sendForm(
-        "service_qy56rhi",
-        "template_frdq98g",
+        "service_mcwrpxo",
+        "template_kgwrfqe",
         e.target,
-        "sn-1NVMEL9d-jfHrj"
+        "YvKuhnTIxk7h_qqYN"
       )
       .then(
         () => {
