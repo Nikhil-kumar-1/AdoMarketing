@@ -7,7 +7,7 @@ import { Helmet } from "react-helmet-async";
 import ServiceHome from "../Service/ServiceHome";
 
 import ScrollServed from "../ScrollCompanyServed/ScrollServed";
-import Scroll from "../Scroll/Scroll";
+
 
 const Home = () => {
   return (

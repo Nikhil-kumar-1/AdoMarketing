@@ -5,6 +5,8 @@ import { HelmetProvider } from 'react-helmet-async';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import SmoothScrollToTop from './components/ScrollOnTop';
+import Dental from './components/LandingPage/Dental';
+import Explore from './components/Explore/Explore';
 
 
 const Home = lazy(() => import('./components/Home/Home'));
@@ -110,6 +112,8 @@ const App = () => {
             <Route path="/services" element={<ServicesPage />} />
             <Route path="/quote" element={<QuoteWizard />} />
             <Route path="/strategy" element={<StrategyPage />} />
+            <Route path="/dental" element={<Dental/>} />
+            <Route path="/explore" element={<Explore/>} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Suspense>
