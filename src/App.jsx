@@ -12,6 +12,8 @@ import BeautyPage from './components/LandingPage/Beauty';
 import Fitness from './components/LandingPage/Fitness';
 import PetShop from './components/LandingPage/PetShop';
 import HomeGoods from './components/LandingPage/HomeGoods';
+import Fintech from './components/LandingPage/Fintech';
+import Crypto from './components/LandingPage/Crypto';
 
 
 const Home = lazy(() => import('./components/Home/Home'));
@@ -123,6 +125,8 @@ const App = () => {
             <Route path='/fitness' element={<Fitness />} />
             <Route path="/homegoods" element={<HomeGoods />} />
             <Route path="/petshop" element={<PetShop />} />
+            <Route path="/fintech" element={<Fintech />} />
+            <Route path="/crypto" element={<Crypto />} />
             <Route path="/explore" element={<Explore/>} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>

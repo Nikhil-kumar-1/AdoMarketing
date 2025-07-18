@@ -477,6 +477,117 @@ const Explore = () => {
               </div>
             </div>
           </div>
+          {/* Crypto Card */}
+          <div
+            className="group bg-white rounded-2xl shadow-xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border border-gray-100 cursor-pointer"
+            onClick={() => navigate("/crypto")}
+          >
+            <div className="relative h-64 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1622630998477-20aa696ecb05?q=80&w=946&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Crypto SEO Services"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+            </div>
+            <div className="p-8">
+              <div className="flex items-center mb-4">
+                <div className="bg-yellow-100 p-3 rounded-xl mr-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 text-yellow-600"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 5h-2v6h2V7zm0 8h-2v2h2v-2z"
+                    />
+                  </svg>
+                </div>
+                <h2 className="text-2xl font-bold text-gray-800">Crypto SEO</h2>
+              </div>
+              <p className="text-gray-600 mb-6">
+                Enhance your cryptocurrency platform's visibility with our
+                specialized SEO strategies for crypto services.
+              </p>
+              <div className="flex items-center text-yellow-600 font-medium group-hover:text-yellow
+-700 transition-colors">
+                <span>Learn More</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 ml-2"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          {/* Fintech Card */}
+          <div
+            className="group bg-white rounded-2xl shadow-xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border border-gray-100 cursor-pointer"
+            onClick={() => navigate("/fintech")}
+          >
+            <div className="relative h-64 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1556742111-a301076d9d18?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Fintech SEO Services"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+            </div>
+            <div className="p-8">
+              <div className="flex items-center mb-4">
+                <div className="bg-yellow-100 p-3 rounded-xl mr-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 text-yellow-600"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 5h-2v6h2V7zm0 8h-2v2h2v-2z"
+                    />
+                  </svg>
+                </div>
+                <h2 className="text-2xl font-bold text-gray-800">Fintech SEO</h2>
+              </div>
+              <p className="text-gray-600 mb-6">
+                Optimize your financial technology platform's online presence
+                with our specialized SEO strategies for fintech services.
+              </p>
+              <div className="flex items-center text-yellow-600 font-medium group-hover:text-yellow
+
+-700 transition-colors">
+                <span>Learn More</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 ml-2"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
         </div>
         {/* CTA Section */}
         <div className="text-center">
