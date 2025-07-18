@@ -7,6 +7,11 @@ import Footer from './components/Footer/Footer';
 import SmoothScrollToTop from './components/ScrollOnTop';
 import Dental from './components/LandingPage/Dental';
 import Explore from './components/Explore/Explore';
+import Apparel from './components/LandingPage/Apparel';
+import BeautyPage from './components/LandingPage/Beauty';
+import Fitness from './components/LandingPage/Fitness';
+import PetShop from './components/LandingPage/PetShop';
+import HomeGoods from './components/LandingPage/HomeGoods';
 
 
 const Home = lazy(() => import('./components/Home/Home'));
@@ -113,6 +118,11 @@ const App = () => {
             <Route path="/quote" element={<QuoteWizard />} />
             <Route path="/strategy" element={<StrategyPage />} />
             <Route path="/dental" element={<Dental/>} />
+            <Route path="/apparel" element={<Apparel/>} />
+            <Route path="/beauty" element={<BeautyPage />} />
+            <Route path='/fitness' element={<Fitness />} />
+            <Route path="/homegoods" element={<HomeGoods />} />
+            <Route path="/petshop" element={<PetShop />} />
             <Route path="/explore" element={<Explore/>} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
