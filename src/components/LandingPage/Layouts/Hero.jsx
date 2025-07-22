@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
 const Hero = ({ title, subtitle, image }) => (
-  <section className="bg-blue-300/60 py-4 px-6 text-gray-900 h-screen flex items-center justify-center">
-    <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+  <section className="bg-blue-700 py-4 px-6 text-gray-900 h-screen flex items-center justify-center">
+    <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-white">
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}

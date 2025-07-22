@@ -15,7 +15,7 @@ const Benefits = ({ items }) => (
         const Icon = BenefitIconMap[icon];
         return (
           <div key={i} className="p-6 bg-white border rounded-lg shadow-sm">
-            <Icon className="text-2xl text-purple-600 mb-2" />
+            <Icon className="text-2xl text-blue-700 mb-2" />
             <h3 className="font-semibold">{title}</h3>
             <p>{description}</p>
           </div>

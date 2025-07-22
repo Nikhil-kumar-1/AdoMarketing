@@ -2,7 +2,7 @@ import SectionWrapper from "./SectionWrapper";
 
 const CTA = ({ industry }) => (
   <SectionWrapper>
-    <div className="bg-gradient-to-r from-purple-600 to-pink-500 text-white rounded-lg p-10 text-center">
+    <div className="bg-gradient-to-l from-green-600 to-blue-500 text-white rounded-lg p-10 text-center">
       <h2 className="text-3xl md:text-4xl font-bold mb-4">
         Ready to Dominate the {industry} Search Results?
       </h2>

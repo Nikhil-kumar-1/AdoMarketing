@@ -2,7 +2,7 @@ import SectionWrapper from "./SectionWrapper";
 import { MdCheckCircle } from "react-icons/md";
 
 const Comprehensive = ({ title, items, image }) => (
-  <SectionWrapper className="bg-green-400/40 py-12 md:py-16">
+  <SectionWrapper className="bg-blue-800 py-12 md:py-16 text-white">
     <h2 className="text-3xl font-bold mb-6 text-center">{title}</h2>
     <div className="grid md:grid-cols-2 gap-8 items-center">
       <ul className="space-y-4">
