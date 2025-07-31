@@ -14,6 +14,11 @@ import PetShop from './components/LandingPage/PetShop';
 import HomeGoods from './components/LandingPage/HomeGoods';
 import Fintech from './components/LandingPage/Fintech';
 import Crypto from './components/LandingPage/Crypto';
+import Ecom from './components/Explore/Ecom';
+import Healthcare from './components/Explore/Healthcare';
+import HomeServices from './components/Explore/HomeServices';
+import Financial from './components/Explore/Financial';
+import Edtech from './components/Explore/Edtech';
 
 
 const Home = lazy(() => import('./components/Home/Home'));
@@ -119,14 +124,19 @@ const App = () => {
             <Route path="/services" element={<ServicesPage />} />
             <Route path="/quote" element={<QuoteWizard />} />
             <Route path="/strategy" element={<StrategyPage />} />
-            <Route path="/dental" element={<Dental/>} />
-            <Route path="/apparel" element={<Apparel/>} />
-            <Route path="/beauty" element={<BeautyPage />} />
-            <Route path='/fitness' element={<Fitness />} />
-            <Route path="/homegoods" element={<HomeGoods />} />
-            <Route path="/petshop" element={<PetShop />} />
-            <Route path="/fintech" element={<Fintech />} />
-            <Route path="/crypto" element={<Crypto />} />
+            <Route path="/ecommerce" element={<Ecom />} />
+            <Route path="/ecommerce/apparel" element={<Apparel/>} />
+            <Route path="/ecommerce/beauty" element={<BeautyPage />} />
+            <Route path='/ecommerce/fitness' element={<Fitness />} />
+            <Route path="/ecommerce/homegoods" element={<HomeGoods />} />
+            <Route path="/ecommerce/petshop" element={<PetShop />} />
+            <Route path="/healthcare" element={<Healthcare />} />
+            <Route path="/healthcare/dental" element={<Dental/>} />
+            <Route path='/homeservices' element={<HomeServices />} />
+            <Route path='/finance' element={<Financial />} />
+            <Route path="/finance/fintech" element={<Fintech />} />
+            <Route path="/finance/crypto" element={<Crypto />} />
+            <Route path='/edtech' element={<Edtech />} />
             <Route path="/explore" element={<Explore/>} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
