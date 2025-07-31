@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const Ecom = () => {
 
@@ -58,6 +59,24 @@ const Ecom = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-yellow-50 to-pink-100">
+      <Helmet>
+        <title>Ecommerce Niches We Empower</title>
+        <meta
+          name="description"
+          content="Discover how we help various ecommerce categories thrive online through proven SEO and marketing strategies."
+        />
+        <meta
+          name="keywords"
+          content="ecommerce , ecommerce in India, ecommerce in Noida"
+        />
+        <meta property="og:title" content="Ecommerce Niches We Empower" />
+        <meta
+          property="og:description"
+          content="Explore our specialized ecommerce services designed to boost visibility and sales across various niches."
+        />
+        <meta property="og:url" content="https://adonomicstechnologies.com/ecommerce" />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
