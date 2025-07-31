@@ -1,109 +1,102 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import {Link} from "react-router-dom";
+const Healthcare = () => {
+  
 
-const Explore = () => {
-  const services = [
+  const healthcareServices = [
     {
-      title: "Care & Wellness",
+      title: "Dental Care",
       description:
-        "Drive patient engagement with tailored SEO strategies for healthcare professionals and clinics.",
+        "Enhance your dental clinic’s reach with SEO strategies crafted to bring more patients and visibility.",
       image:
-        "https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      link: "/healthcare",
-      color: "text-green-600",
-      bg: "bg-green-100",
-    },
-    {
-      title: "Digital Marketplace",
-      description:
-        "Boost online sales with ecommerce-focused SEO and digital marketing solutions.",
-      image:
-        "https://images.unsplash.com/photo-1586880244406-556ebe35f282?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      link: "/ecommerce",
+        "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      link: "/healthcare/dental",
       color: "text-blue-600",
       bg: "bg-blue-100",
     },
     {
-      title: "Home Assistance",
+      title: "Senior Care",
       description:
-        "Improve visibility for local businesses offering plumbing, electrical, cleaning and more.",
+        "Connect with families seeking trusted elderly care solutions through optimized content and visibility.",
       image:
-        "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      link: "/homeservices",
-      color: "text-orange-600",
-      bg: "bg-orange-100",
+        "https://images.unsplash.com/photo-1513159446162-54eb8bdaa79b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      link: "/healthcare/seniorcare",
+      color: "text-yellow-600",
+      bg: "bg-yellow-100",
     },
     {
-      title: "Money Management",
+      title: "Physiotherapists",
       description:
-        "Attract clients with trust-building SEO and content strategies for finance firms and advisors.",
+        "Attract more patients looking for physical therapy with our niche-specific SEO for physiotherapists.",
       image:
-        "https://images.unsplash.com/photo-1563986768711-b3bde3dc821e?q=80&w=868&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      link: "/finance",
-      color: "text-indigo-600",
-      bg: "bg-indigo-100",
+        "https://images.unsplash.com/photo-1706353399656-210cca727a33?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      link: "/healthcare/physio",
+      color: "text-green-600",
+      bg: "bg-green-100",
     },
     {
-      title: "Smart Learning",
+      title: "Wellness Centre",
       description:
-        "Grow your educational platform with strategies that rank you high and bring conversions.",
+        "Promote holistic wellness through targeted digital strategies for spas, yoga, and wellness centers.",
       image:
-        "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      link: "/edtech",
-      color: "text-red-600",
-      bg: "bg-red-100",
+        "https://images.unsplash.com/photo-1641236475922-4537ef0b974e?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      link: "/healthcare/wellness-centre",
+      color: "text-purple-600",
+      bg: "bg-purple-100",
     },
   ];
+
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+    <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-100">
       <Helmet>
-        <title>Explore Our Services</title>
+        <title>Healthcare Services | Adonomics Technologies</title>
         <meta
           name="description"
-          content="Discover our comprehensive dental SEO services and content strategy solutions to grow your practice."
+          content="Explore our healthcare services designed to enhance visibility and patient engagement for clinics, physiotherapists, and wellness centers."
         />
         <meta
           name="keywords"
-          content="dental SEO, content strategy, dental marketing, SEO services"
+          content="Healthcare Services, Dental Care, Senior Care, Physiotherapy, Wellness Centre, SEO, Digital Marketing, Adonomics Technologies"
         />
-        <meta property="og:title" content="Explore Our Dental SEO Services" />
+        <meta
+          property="og:title"
+          content="Healthcare Services | Adonomics Technologies"
+        />
         <meta
           property="og:description"
-          content="Professional SEO solutions for dental practices"
+          content="Explore our healthcare services designed to enhance visibility and patient engagement for clinics, physiotherapists, and wellness centers."
         />
-        <meta property="og:type" content="website" />
         <meta
-          property="og:url"
-          content="https://adonomicstechnologies/explore"
+          property="og:image"
+          content="https://adonomicstechnologies.com/Logo.webp"
         />
+        <meta property="og:url" content="https://adonomicstechnologies.com/healthcare" />
+        <meta property="og:type" content="website" />
       </Helmet>
-
-      {/* Main Content */}
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-            Want to grow your business online?
+            Healthcare Categories We Support
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Contact us today and let our experts manage the SEO of your website
-            to boost visibility, traffic, and conversions.
+            Our SEO and marketing services are built to grow your healthcare business online and connect you with patients in need.
           </p>
         </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
-          {services.map((service, index) => (
-            
+          {healthcareServices.map((service, index) => (
             <div
               key={index}
               className="group bg-white rounded-2xl shadow-xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 border border-gray-100 cursor-pointer"
             >
-              <Link to={service.link} className="block">
+                <Link to={service.link} className="block">
               <div className="relative h-64 overflow-hidden">
                 <img
                   src={service.image}
-                  alt={`${service.title} SEO Services`}
+                  alt={`${service.title}`}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  />
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
               </div>
               <div className="p-8">
@@ -114,13 +107,12 @@ const Explore = () => {
                       className={`h-6 w-6 ${service.color}`}
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      >
+                    >
                       <path
                         fillRule="evenodd"
                         d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 00-2 0v4a1 1 0 002 0V7zm-1 6a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"
                         clipRule="evenodd"
                       />
-
                     </svg>
                   </div>
                   <h2 className="text-2xl font-bold text-gray-800">
@@ -137,7 +129,7 @@ const Explore = () => {
                     className="h-5 w-5 ml-2"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    >
+                  >
                     <path
                       fillRule="evenodd"
                       d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
@@ -146,7 +138,7 @@ const Explore = () => {
                   </svg>
                 </div>
               </div>
-          </Link>
+                    </Link>
             </div>
           ))}
         </div>
@@ -154,4 +146,5 @@ const Explore = () => {
     </div>
   );
 };
-export default Explore;
+
+export default Healthcare;
