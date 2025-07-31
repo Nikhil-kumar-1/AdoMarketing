@@ -29,6 +29,16 @@ import Investment from './components/LandingPage/Investment';
 import LandScaping from './components/LandingPage/LandScaping';
 import Educator from './components/LandingPage/Educator';
 import Coaching from './components/LandingPage/Coaching';
+import Bakery from "./components/LandingPage/Bakery";
+import WebDevelopment from './components/Portfolio/WebDevelopment';
+import Searchengine from './components/Portfolio/Searchengine';
+import PagePerClick from './components/Portfolio/PagePerClick';
+import SocialMediaService from './components/Portfolio/SocialMediaService';
+import EcommerceService from './components/Portfolio/EcommerceService';
+import AnalyticsService from './components/Portfolio/AnalyticsService';
+import GraphicDesignService from './components/Portfolio/GraphicDesignService';
+import ContentMarketing from './components/Portfolio/ContentMarketing';
+
 
 
 
