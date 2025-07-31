@@ -62,7 +62,7 @@ const Dental = () => {
     {
       title: "Understand Who You're Writing For",
       content:
-        "Awareness of your target audience transforms your writing style. It informs word choice, topic depth, and structure. Do readers seek introductory overviews or advanced insights? Are they looking to learn or to buy? Develop personas when helpful. Identify their challenges, objectives, and preferred formats. A genuine SEO strategy centers on understanding readers rather than following algorithms. Content that connects resonates more deeply.",
+        "Awareness of your target audience transforms your writing style. It informs word choice, topic depth, and structure. Do readers seek introductory overviews or advanced insights? Are they looking to learn or to buy? Develop personas when helpful. Identify their challenges, objectives, and preferred formats. A genuine <strong> SEO strategy <strong> centers on understanding readers rather than following algorithms. Content that connects resonates more deeply.",
     },
     {
       title: "Create a Structured SEO Content Strategy",
@@ -171,23 +171,23 @@ const Dental = () => {
         <meta name="robots" content="index, follow" />
       </Helmet>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-cyan-100 via-cyan-200 to-cyan-300 py-20">
+      <section className="bg-[#0074CC] py-20 text-white">
         <div className="container mx-auto px-6 flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-6">
-              Smart <span className="text-cyan-600">Dental SEO</span> Content
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+              Smart <span className="text-[#FFC107]">Dental SEO</span> Content
               Strategy That Attracts Patients
             </h1>
-            <p className="text-xl text-gray-700 mb-5">
+            <p className="text-xl text-blue-100 mb-5">
               Creating material without a clear aim feels like wandering without
               direction. You may stumble across something useful, yet you will
-              likely miss the mark. A well thought-out SEO content strategy
+              likely miss the mark. A well thought-out <strong> SEO content strategy </strong>
               provides guidance. It offers structure, relevance, and impact.
               Rather than guesswork, your content reflects search intent,
               audience desires, and brand values.
             </p>
-            <p className="text-xl text-gray-700 mb-8">
-              A strong SEO strategy goes further than chasing top positions. It
+            <p className="text-xl text-blue-100 mb-8">
+              A strong <strong> SEO strategy </strong> goes further than chasing top positions. It
               earns respect, solves problems, and fosters interaction. This
               article explains steps required to construct an approach that
               truly delivers results
@@ -195,13 +195,13 @@ const Dental = () => {
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <Link
                 to="/contact"
-                className="bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-3 px-8 rounded-lg text-center transition duration-300"
+                className="bg-[#FFC107] hover:bg-amber-500 text-gray-800 font-bold py-3 px-8 rounded-lg text-center transition duration-300"
               >
                 Get Your Free Audit
               </Link>
               <Link
                 to="/services"
-                className="bg-white hover:bg-gray-100 text-cyan-600 font-bold py-3 px-8 rounded-lg text-center border border-cyan-600 transition duration-300"
+                className="bg-white hover:bg-gray-100 text-[#0074CC] font-bold py-3 px-8 rounded-lg text-center border border-white transition duration-300"
               >
                 Learn SEO Strategy
               </Link>
@@ -222,25 +222,25 @@ const Dental = () => {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div className="p-4">
-              <div className="text-4xl font-bold text-cyan-600 mb-2">73%</div>
+              <div className="text-4xl font-bold text-[#0074CC] mb-2">73%</div>
               <div className="text-gray-600">
                 of patients research online before choosing a dentist
               </div>
             </div>
             <div className="p-4">
-              <div className="text-4xl font-bold text-cyan-600 mb-2">5x</div>
+              <div className="text-4xl font-bold text-[#0074CC] mb-2">5x</div>
               <div className="text-gray-600">
                 more likely to be clicked when ranking on page 1
               </div>
             </div>
             <div className="p-4">
-              <div className="text-4xl font-bold text-cyan-600 mb-2">89%</div>
+              <div className="text-4xl font-bold text-[#0074CC] mb-2">89%</div>
               <div className="text-gray-600">
                 of dental searches include local intent
               </div>
             </div>
             <div className="p-4">
-              <div className="text-4xl font-bold text-cyan-600 mb-2">60%</div>
+              <div className="text-4xl font-bold text-[#0074CC] mb-2">60%</div>
               <div className="text-gray-600">
                 increase in consultations with optimized content
               </div>
@@ -252,7 +252,7 @@ const Dental = () => {
       {/* Comprehensive SEO Strategy Section */}
       <section id="seo-strategy" className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-4">
+          <h2 className="text-3xl font-bold text-center mb-4 text-gray-800">
             Complete SEO Content Strategy Framework
           </h2>
           <p className="text-xl text-center text-gray-600 max-w-3xl mx-auto mb-12">
@@ -268,7 +268,7 @@ const Dental = () => {
                   key={index}
                   className="border-b border-gray-200 pb-8 last:border-b-0 last:pb-0"
                 >
-                  <h3 className="text-2xl font-bold text-cyan-600 mb-4">
+                  <h3 className="text-2xl font-bold text-[#0074CC] mb-4">
                     Step {index + 1}: {step.title}
                   </h3>
                   <div className="prose max-w-none text-gray-600">
@@ -295,7 +295,7 @@ const Dental = () => {
       {/* Strategy Section */}
       <section id="strategy" className="py-16 bg-white">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-4">
+          <h2 className="text-3xl font-bold text-center mb-4 text-gray-800">
             Our Comprehensive Dental SEO Content Strategy
           </h2>
           <p className="text-xl text-center text-gray-600 max-w-3xl mx-auto mb-12">
@@ -312,10 +312,10 @@ const Dental = () => {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <div className="bg-cyan-500 w-12 h-12 rounded-full flex items-center justify-center text-white mb-4">
+                <div className="bg-[#0074CC] w-12 h-12 rounded-full flex items-center justify-center text-white mb-4">
                   <FaSearch className="text-xl" />
                 </div>
-                <h3 className="text-xl font-bold mb-3">
+                <h3 className="text-xl font-bold mb-3 text-gray-800">
                   Targeted Keyword Research
                 </h3>
                 <p className="text-gray-600">
@@ -333,10 +333,10 @@ const Dental = () => {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <div className="bg-cyan-500 w-12 h-12 rounded-full flex items-center justify-center text-white mb-4">
+                <div className="bg-[#0074CC] w-12 h-12 rounded-full flex items-center justify-center text-white mb-4">
                   <FaPenFancy className="text-xl" />
                 </div>
-                <h3 className="text-xl font-bold mb-3">
+                <h3 className="text-xl font-bold mb-3 text-gray-800">
                   Patient-Focused Content
                 </h3>
                 <p className="text-gray-600">
@@ -354,10 +354,10 @@ const Dental = () => {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <div className="bg-cyan-500 w-12 h-12 rounded-full flex items-center justify-center text-white mb-4">
+                <div className="bg-[#0074CC] w-12 h-12 rounded-full flex items-center justify-center text-white mb-4">
                   <FaMapMarkerAlt className="text-xl" />
                 </div>
-                <h3 className="text-xl font-bold mb-3">
+                <h3 className="text-xl font-bold mb-3 text-gray-800">
                   Local SEO Optimization
                 </h3>
                 <p className="text-gray-600">
@@ -373,7 +373,7 @@ const Dental = () => {
       {/* Benefits Section */}
       <section id="benefits" className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12">
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
             Why Dental Practices Need a Content Strategy
           </h2>
 
@@ -388,11 +388,11 @@ const Dental = () => {
             <div className="md:w-1/2">
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <div className="bg-cyan-100 p-2 rounded-full mr-4">
-                    <FaCheck className="text-cyan-600" />
+                  <div className="bg-blue-100 p-2 rounded-full mr-4">
+                    <FaCheck className="text-[#0074CC]" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg mb-1">
+                    <h3 className="font-bold text-lg mb-1 text-gray-800">
                       Establish Trust Before First Contact
                     </h3>
                     <p className="text-gray-600">
@@ -402,11 +402,11 @@ const Dental = () => {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="bg-cyan-100 p-2 rounded-full mr-4">
-                    <FaCheck className="text-cyan-600" />
+                  <div className="bg-blue-100 p-2 rounded-full mr-4">
+                    <FaCheck className="text-[#0074CC]" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg mb-1">
+                    <h3 className="font-bold text-lg mb-1 text-gray-800">
                       Answer Common Patient Questions
                     </h3>
                     <p className="text-gray-600">
@@ -416,11 +416,11 @@ const Dental = () => {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="bg-cyan-100 p-2 rounded-full mr-4">
-                    <FaCheck className="text-cyan-600" />
+                  <div className="bg-blue-100 p-2 rounded-full mr-4">
+                    <FaCheck className="text-[#0074CC]" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg mb-1">
+                    <h3 className="font-bold text-lg mb-1 text-gray-800">
                       Differentiate Your Practice
                     </h3>
                     <p className="text-gray-600">
@@ -430,11 +430,11 @@ const Dental = () => {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="bg-cyan-100 p-2 rounded-full mr-4">
-                    <FaCheck className="text-cyan-600" />
+                  <div className="bg-blue-100 p-2 rounded-full mr-4">
+                    <FaCheck className="text-[#0074CC]" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg mb-1">
+                    <h3 className="font-bold text-lg mb-1 text-gray-800">
                       Improve Online Visibility
                     </h3>
                     <p className="text-gray-600">
@@ -452,7 +452,7 @@ const Dental = () => {
       {/* Process Section */}
       <section id="process" className="py-16 bg-white">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-4">
+          <h2 className="text-3xl font-bold text-center mb-4 text-gray-800">
             Our 6-Step Dental Content Strategy Process
           </h2>
           <p className="text-xl text-center text-gray-600 max-w-3xl mx-auto mb-12">
@@ -462,12 +462,12 @@ const Dental = () => {
 
           <div className="relative">
             {/* Timeline line */}
-            <div className="hidden md:block absolute left-1/2 h-full w-1 bg-cyan-200 transform -translate-x-1/2"></div>
+            <div className="hidden md:block absolute left-1/2 h-full w-1 bg-blue-200 transform -translate-x-1/2"></div>
 
             {/* Step 1 */}
             <div className="flex flex-col md:flex-row items-center mb-12">
               <div className="md:w-1/2 md:pr-12 mb-6 md:mb-0 md:text-right">
-                <h3 className="text-2xl font-bold text-cyan-600 mb-2">
+                <h3 className="text-2xl font-bold text-[#0074CC] mb-2">
                   1. Comprehensive Research
                 </h3>
                 <p className="text-gray-600">
@@ -476,8 +476,8 @@ const Dental = () => {
                 </p>
               </div>
               <div className="md:w-1/2 md:pl-12 flex justify-center md:justify-start">
-                <div className="bg-white p-4 rounded-full shadow-md w-16 h-16 flex items-center justify-center border-4 border-cyan-100">
-                  <span className="text-2xl font-bold text-cyan-600">1</span>
+                <div className="bg-white p-4 rounded-full shadow-md w-16 h-16 flex items-center justify-center border-4 border-blue-100">
+                  <span className="text-2xl font-bold text-[#0074CC]">1</span>
                 </div>
               </div>
             </div>
@@ -485,12 +485,12 @@ const Dental = () => {
             {/* Step 2 */}
             <div className="flex flex-col md:flex-row items-center mb-12">
               <div className="md:w-1/2 order-2 md:order-1 md:pr-12 flex justify-center md:justify-end">
-                <div className="bg-white p-4 rounded-full shadow-md w-16 h-16 flex items-center justify-center border-4 border-cyan-100">
-                  <span className="text-2xl font-bold text-cyan-600">2</span>
+                <div className="bg-white p-4 rounded-full shadow-md w-16 h-16 flex items-center justify-center border-4 border-blue-100">
+                  <span className="text-2xl font-bold text-[#0074CC]">2</span>
                 </div>
               </div>
               <div className="md:w-1/2 order-1 md:order-2 md:pl-12 mb-6 md:mb-0">
-                <h3 className="text-2xl font-bold text-cyan-600 mb-2">
+                <h3 className="text-2xl font-bold text-[#0074CC] mb-2">
                   2. Strategy Development
                 </h3>
                 <p className="text-gray-600">
@@ -503,7 +503,7 @@ const Dental = () => {
             {/* Step 3 */}
             <div className="flex flex-col md:flex-row items-center mb-12">
               <div className="md:w-1/2 md:pr-12 mb-6 md:mb-0 md:text-right">
-                <h3 className="text-2xl font-bold text-cyan-600 mb-2">
+                <h3 className="text-2xl font-bold text-[#0074CC] mb-2">
                   3. Content Creation
                 </h3>
                 <p className="text-gray-600">
@@ -512,8 +512,8 @@ const Dental = () => {
                 </p>
               </div>
               <div className="md:w-1/2 md:pl-12 flex justify-center md:justify-start">
-                <div className="bg-white p-4 rounded-full shadow-md w-16 h-16 flex items-center justify-center border-4 border-cyan-100">
-                  <span className="text-2xl font-bold text-cyan-600">3</span>
+                <div className="bg-white p-4 rounded-full shadow-md w-16 h-16 flex items-center justify-center border-4 border-blue-100">
+                  <span className="text-2xl font-bold text-[#0074CC]">3</span>
                 </div>
               </div>
             </div>
@@ -521,12 +521,12 @@ const Dental = () => {
             {/* Step 4 */}
             <div className="flex flex-col md:flex-row items-center mb-12">
               <div className="md:w-1/2 order-2 md:order-1 md:pr-12 flex justify-center md:justify-end">
-                <div className="bg-white p-4 rounded-full shadow-md w-16 h-16 flex items-center justify-center border-4 border-cyan-100">
-                  <span className="text-2xl font-bold text-cyan-600">4</span>
+                <div className="bg-white p-4 rounded-full shadow-md w-16 h-16 flex items-center justify-center border-4 border-blue-100">
+                  <span className="text-2xl font-bold text-[#0074CC]">4</span>
                 </div>
               </div>
               <div className="md:w-1/2 order-1 md:order-2 md:pl-12 mb-6 md:mb-0">
-                <h3 className="text-2xl font-bold text-cyan-600 mb-2">
+                <h3 className="text-2xl font-bold text-[#0074CC] mb-2">
                   4. On-page Optimization
                 </h3>
                 <p className="text-gray-600">
@@ -539,7 +539,7 @@ const Dental = () => {
             {/* Step 5 */}
             <div className="flex flex-col md:flex-row items-center mb-12">
               <div className="md:w-1/2 md:pr-12 mb-6 md:mb-0 md:text-right">
-                <h3 className="text-2xl font-bold text-cyan-600 mb-2">
+                <h3 className="text-2xl font-bold text-[#0074CC] mb-2">
                   5. Visual Enhancement
                 </h3>
                 <p className="text-gray-600">
@@ -548,8 +548,8 @@ const Dental = () => {
                 </p>
               </div>
               <div className="md:w-1/2 md:pl-12 flex justify-center md:justify-start">
-                <div className="bg-white p-4 rounded-full shadow-md w-16 h-16 flex items-center justify-center border-4 border-cyan-100">
-                  <span className="text-2xl font-bold text-cyan-600">5</span>
+                <div className="bg-white p-4 rounded-full shadow-md w-16 h-16 flex items-center justify-center border-4 border-blue-100">
+                  <span className="text-2xl font-bold text-[#0074CC]">5</span>
                 </div>
               </div>
             </div>
@@ -557,12 +557,12 @@ const Dental = () => {
             {/* Step 6 */}
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-1/2 order-2 md:order-1 md:pr-12 flex justify-center md:justify-end">
-                <div className="bg-white p-4 rounded-full shadow-md w-16 h-16 flex items-center justify-center border-4 border-cyan-100">
-                  <span className="text-2xl font-bold text-cyan-600">6</span>
+                <div className="bg-white p-4 rounded-full shadow-md w-16 h-16 flex items-center justify-center border-4 border-blue-100">
+                  <span className="text-2xl font-bold text-[#0074CC]">6</span>
                 </div>
               </div>
               <div className="md:w-1/2 order-1 md:order-2 md:pl-12 mb-6 md:mb-0">
-                <h3 className="text-2xl font-bold text-cyan-600 mb-2">
+                <h3 className="text-2xl font-bold text-[#0074CC] mb-2">
                   6. Performance Tracking
                 </h3>
                 <p className="text-gray-600">
@@ -576,7 +576,7 @@ const Dental = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-cyan-700 text-white">
+      <section className="py-16 bg-[#0074CC] text-white">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold mb-6">
             Ready to Attract More Patients Through SEO Content?
@@ -587,7 +587,7 @@ const Dental = () => {
           </p>
           <Link
             to="/contact"
-            className="bg-white hover:bg-gray-100 text-cyan-700 font-bold py-3 px-8 rounded-lg inline-block transition duration-300"
+            className="bg-[#FFC107] hover:bg-amber-500 text-gray-800 font-bold py-3 px-8 rounded-lg inline-block transition duration-300"
           >
             Request Free Audit
           </Link>
@@ -597,7 +597,7 @@ const Dental = () => {
       {/* FAQ Section */}
       <section id="faq" className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12">
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
             Dental SEO Content Strategy FAQs
           </h2>
 
@@ -611,9 +611,9 @@ const Dental = () => {
                   className="w-full flex justify-between items-center p-6 text-left focus:outline-none"
                   onClick={() => toggleFaq(index)}
                 >
-                  <h3 className="text-lg font-bold">{faq.question}</h3>
+                  <h3 className="text-lg font-bold text-gray-800">{faq.question}</h3>
                   <FaChevronDown
-                    className={`text-cyan-600 transition-transform duration-300 ${
+                    className={`text-[#0074CC] transition-transform duration-300 ${
                       activeFaq === index ? "transform rotate-180" : ""
                     }`}
                   />
@@ -634,7 +634,7 @@ const Dental = () => {
       {/* SEO Content FAQ Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12">
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
             SEO Content Strategy FAQs
           </h2>
 
@@ -648,9 +648,9 @@ const Dental = () => {
                   className="w-full flex justify-between items-center p-6 text-left focus:outline-none"
                   onClick={() => toggleSeoFaq(index)}
                 >
-                  <h3 className="text-lg font-bold">{faq.question}</h3>
+                  <h3 className="text-lg font-bold text-gray-800">{faq.question}</h3>
                   <FaChevronDown
-                    className={`text-cyan-600 transition-transform duration-300 ${
+                    className={`text-[#0074CC] transition-transform duration-300 ${
                       activeSeoFaq === index ? "transform rotate-180" : ""
                     }`}
                   />
@@ -673,7 +673,7 @@ const Dental = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-md overflow-hidden">
             <div className="md:flex">
-              <div className="md:w-1/2 bg-cyan-600 text-white p-10 flex flex-col justify-center">
+              <div className="md:w-1/2 bg-[#0074CC] text-white p-10 flex flex-col justify-center">
                 <h2 className="text-3xl font-bold mb-4">
                   Get Your Free Content Strategy Assessment
                 </h2>
@@ -683,7 +683,7 @@ const Dental = () => {
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-start">
-                    <div className="bg-cyan-500 p-2 rounded-full mr-4">
+                    <div className="bg-blue-500 p-2 rounded-full mr-4">
                       <FaPhone />
                     </div>
                     <div>
@@ -692,25 +692,24 @@ const Dental = () => {
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="bg-cyan-500 p-2 rounded-full mr-4">
+                    <div className="bg-blue-500 p-2 rounded-full mr-4">
                       <FaEnvelope />
                     </div>
                     <div>
                       <h3 className="font-bold">Email Us</h3>
                       <p>info@adonomicstechnologies.com</p>
                     </div>
-                    
                   </div>
-                  <Link to="/contact" className="text-cyan-200 hover:text-white cursor-pointer">
-                    
-                  <button className="bg-cyan-500 cursor-pointer hover:bg-cyan-900 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
-                 
-                    Contact</button></Link>
+                  <Link to="/contact" className="inline-block">
+                    <button className="bg-[#FFC107] hover:bg-amber-500 text-gray-800 font-bold py-3 px-6 rounded-lg transition duration-300">
+                      Contact
+                    </button>
+                  </Link>
                 </div>
               </div>
               <div className="md:w-1/2 p-10 flex items-center justify-center">
                 <img
-                  src="https://plus.unsplash.com/premium_photo-1683980578016-a1f980719ec2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2VvfGVufDB8fDB8fHww" // Replace with your desired image
+                  src="https://plus.unsplash.com/premium_photo-1683980578016-a1f980719ec2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2VvfGVufDB8fDB8fHww"
                   alt="Contact us"
                   className="rounded-lg shadow-lg w-full h-auto object-cover"
                 />

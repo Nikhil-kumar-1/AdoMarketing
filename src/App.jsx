@@ -7,6 +7,16 @@ import Footer from './components/Footer/Footer';
 import SmoothScrollToTop from './components/ScrollOnTop';
 import Dental from './components/LandingPage/Dental';
 import Explore from './components/Explore/Explore';
+import Wellness from './components/LandingPage/Wellness';
+import Bakery from './components/LandingPage/Bakery';
+import WebDevelopment from './components/Portfolio/WebDevelopment';
+import Searchengine from './components/Portfolio/SearchEngine';
+import PagePerClick from './components/Portfolio/PagePerClick';
+import SocialMediaService from './components/Portfolio/SocialMediaService';
+import EcommerceService from './components/Portfolio/EcommerceService';
+import AnalyticsService from './components/Portfolio/AnalyticsService';
+import GraphicDesignService from './components/Portfolio/GraphicDesignService';
+import ContentMarketing from './components/Portfolio/ContentMarketing';
 
 
 const Home = lazy(() => import('./components/Home/Home'));
@@ -114,6 +124,16 @@ const App = () => {
             <Route path="/strategy" element={<StrategyPage />} />
             <Route path="/dental" element={<Dental/>} />
             <Route path="/explore" element={<Explore/>} />
+            <Route path="/wellness" element={<Wellness/>} />
+            <Route path="/bakery" element={<Bakery/>} />
+            <Route path='/portfolio/webdevelopment' element={<WebDevelopment/>} />
+            <Route path='/portfolio/searchengine' element={<Searchengine/>} />
+            <Route path='/portfolio/pageperclick' element={<PagePerClick/>} />
+            <Route path='/portfolio/socialmedia' element={<SocialMediaService/>} />
+            <Route path='/portfolio/ecommerceservice' element={<EcommerceService/>} />
+            <Route path='/portfolio/analyticsservice' element={<AnalyticsService/>} />
+            <Route path='/portfolio/graphicdesignservice' element={<GraphicDesignService/>} />
+            <Route path="/portfolio/contentmarketing" element={<ContentMarketing/>} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Suspense>
