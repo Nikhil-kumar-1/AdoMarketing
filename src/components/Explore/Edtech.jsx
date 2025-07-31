@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const Edtech = () => {
   const edtechServices = [
@@ -27,6 +28,31 @@ const Edtech = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 to-purple-100">
+      <Helmet>
+        <title>EdTech Services | Adonomics Technologies </title>
+        <meta
+          name="description"
+          content="Explore our EdTech services designed to empower educators and coaching institutes with strategic SEO and digital marketing solutions."
+        />
+        <meta
+          name="keywords"
+          content="EdTech, Educator, Coaching, SEO, Digital Marketing, Adonomics Technologies"
+        />
+        <meta
+          property="og:title"
+          content="EdTech Services | Adonomics Technologies "
+        />
+        <meta
+          property="og:description"
+          content="Explore our EdTech services designed to empower educators and coaching institutes with strategic SEO and digital marketing solutions."
+        />
+        <meta
+          property="og:image"
+          content="https://adonomicstechnologies.com/Logo.webp"
+        />
+        <meta property="og:url" content="https://adonomicstechnologies.com/edtech" />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">

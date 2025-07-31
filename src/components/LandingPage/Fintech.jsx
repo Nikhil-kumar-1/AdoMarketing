@@ -5,10 +5,36 @@ import {
   FaLock,
 } from "react-icons/fa";
 import SEOPageLayout from "./Layouts/SEOPageLayout";
-import { q } from "framer-motion/m";
+import { Helmet } from "react-helmet-async";
 
 export default function Fintech() {
   return (
+    <>
+    <Helmet>
+      <title>Fintech SEO Services | Boost Your Financial Platform</title>
+      <meta
+        name="description"
+        content="Elevate your fintech platform with targeted SEO strategies. Get discovered by users and increase your online visibility."
+      />
+      <meta
+        name="keywords"
+        content="Fintech SEO, Financial Services SEO, Banking SEO, Fintech Marketing, Online Banking SEO"
+      />
+      <meta
+        property="og:title"
+        content="Fintech SEO Services | Boost Your Financial Platform"
+      />
+      <meta
+        property="og:description"
+        content="Elevate your fintech platform with targeted SEO strategies. Get discovered by users and increase your online visibility."
+      />
+      <meta
+        property="og:image"
+        content="https://adonomicstechnologies.com/Logo.webp"
+      />
+      <meta property="og:url" content="https://adonomicstechnologies.com/finance/fintech" />
+      <meta property="og:type" content="website" />
+    </Helmet>
     <SEOPageLayout
       industry="Fintech"
       hero={{
@@ -43,7 +69,7 @@ export default function Fintech() {
             "Content optimization for fintech blogs",
             "On-page and off-page optimization",
             ],
-        image: "https://images.unsplash.com/photo-1581091870620-2f8b1c5d3c4e?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image: "https://images.unsplash.com/photo-1677058698151-1ba91e4c2a39?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         
         }
       }
@@ -83,5 +109,6 @@ export default function Fintech() {
         },
       ]}
     />
+    </>
   );
 }

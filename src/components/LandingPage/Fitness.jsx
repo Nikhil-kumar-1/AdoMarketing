@@ -1,8 +1,36 @@
 import SEOPageLayout from "./Layouts/SEOPageLayout";
 import { FaChartLine, FaRocket, FaBullhorn } from "react-icons/fa";
-
+import { Helmet } from "react-helmet-async";
 function Fitness() {
   return (
+    <>
+    <Helmet>
+      <title>Fitness SEO Services | Boost Your Fitness Brand</title>
+      <meta
+        name="description"
+        content="Elevate your fitness brand with targeted SEO strategies. Get discovered by health enthusiasts and
+increase your online visibility."
+
+      />
+      <meta
+        name="keywords"
+        content="Fitness SEO, Gym SEO, Health and Wellness SEO, Fitness Marketing, Personal Trainer SEO"
+      />
+      <meta
+        property="og:title"
+        content="Fitness SEO Services | Boost Your Fitness Brand" 
+      />
+      <meta
+        property="og:description"
+        content="Elevate your fitness brand with targeted SEO strategies. Get discovered by health enthusiasts and increase your online visibility."
+      />
+      <meta
+        property="og:image"
+        content="https://adonomicstechnologies.com/Logo.webp"
+      />
+      <meta property="og:url" content="https://adonomicstechnologies.com/ecommerce/fitness" />
+      <meta property="og:type" content="website" />
+    </Helmet>
     <SEOPageLayout
       industry="Fitness"
       hero={{
@@ -75,6 +103,7 @@ function Fitness() {
         },
       ]}
     />
+    </>
   );
 }
 

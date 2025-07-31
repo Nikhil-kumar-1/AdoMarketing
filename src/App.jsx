@@ -19,6 +19,17 @@ import Healthcare from './components/Explore/Healthcare';
 import HomeServices from './components/Explore/HomeServices';
 import Financial from './components/Explore/Financial';
 import Edtech from './components/Explore/Edtech';
+import Seniors from './components/LandingPage/Seniors';
+import Wellness from './components/LandingPage/Wellness';
+import Plumbing from './components/LandingPage/Plumbing';
+import Roofing from './components/LandingPage/Roofing';
+import Physio from './components/LandingPage/Physio';
+import PestC from './components/LandingPage/PestC';
+import Investment from './components/LandingPage/Investment';
+import LandScaping from './components/LandingPage/LandScaping';
+import Educator from './components/LandingPage/Educator';
+import Coaching from './components/LandingPage/Coaching';
+
 
 
 const Home = lazy(() => import('./components/Home/Home'));
@@ -79,7 +90,7 @@ const App = () => {
       <BrowserRouter>
         <SmoothScrollToTop />
         <Navbar />
-        <Suspense fallback={<div className="text-center py-10">Loading...</div>}>
+        {/* <Suspense fallback={<div className="text-center py-10">Loading...</div>}> */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<AboutUs />} />
@@ -132,15 +143,27 @@ const App = () => {
             <Route path="/ecommerce/petshop" element={<PetShop />} />
             <Route path="/healthcare" element={<Healthcare />} />
             <Route path="/healthcare/dental" element={<Dental/>} />
+            <Route path="/healthcare/seniorcare" element={<Seniors />} />
+            <Route path="/healthcare/wellness-centre" element={<Wellness />} />
+            <Route path="/healthcare/physio" element={<Physio />} />
+            
             <Route path='/homeservices' element={<HomeServices />} />
+            <Route path="/homeservices/plumbing" element={<Plumbing />} />
+            <Route path="/homeservices/roofing" element={<Roofing />} />
+            
+            <Route path="/homeservices/pest-control" element={<PestC />} />
+            <Route path="/homeservices/landscaping" element={<LandScaping />} />
             <Route path='/finance' element={<Financial />} />
             <Route path="/finance/fintech" element={<Fintech />} />
             <Route path="/finance/crypto" element={<Crypto />} />
+            <Route path="/finance/investment-firms" element={<Investment />} />
             <Route path='/edtech' element={<Edtech />} />
+            <Route path="/edtech/educator" element={<Educator />} />
+            <Route path="/edtech/coaching" element={<Coaching />} />
             <Route path="/explore" element={<Explore/>} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
-        </Suspense>
+        {/* </Suspense> */}
         <Footer />
       </BrowserRouter>
     </HelmetProvider>

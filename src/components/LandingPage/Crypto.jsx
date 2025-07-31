@@ -5,10 +5,37 @@ import {
   FaUsers
 } from "react-icons/fa";
 import SEOPageLayout from "./Layouts/SEOPageLayout";
-import { title } from "framer-motion/m";
+import { Helmet } from "react-helmet-async";
 
 export default function Crypto() {
   return (
+    <>
+    <Helmet>
+      <title>Crypto SEO Services | Boost Your Crypto Platform</title>
+      <meta
+        name="description"
+        content="Elevate your crypto platform with targeted SEO strategies. Get discovered by crypto enthusiasts and increase your online visibility."
+      />
+      <meta
+        name="keywords"
+        content="Crypto SEO, Cryptocurrency SEO, Blockchain SEO, Crypto Exchange SEO, Crypto Marketing"
+      />
+      <meta
+        property="og:title"
+        content="Crypto SEO Services | Boost Your Crypto Platform"
+      />
+      <meta
+        property="og:description"
+        content="Elevate your crypto platform with targeted SEO strategies. Get discovered by crypto enthusiasts and increase your online visibility."
+      />
+      <meta
+
+        property="og:image"
+        content="https://adonomicstechnologies.com/Logo.webp"
+      />
+      <meta property="og:url" content="https://adonomicstechnologies.com/finance/crypto" />
+      <meta property="og:type" content="website" />
+    </Helmet>
     <SEOPageLayout
       industry="Crypto"
       hero={{
@@ -80,6 +107,7 @@ export default function Crypto() {
           a: "Yes, you can withdraw your funds at any time with fast processing times."
         }
       ]}
-    />
+      />
+      </>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const Financial = () => {
@@ -37,6 +38,33 @@ const Financial = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-yellow-50 to-green-100">
+      <Helmet>
+        <title>Financial Services | Adonomics Technologies</title>
+        <meta
+          name="description"
+          content="Explore our financial services designed to enhance visibility, trust, and lead generation for finance firms and fintech startups."
+        />
+        <meta
+          name="keywords"
+          content="Financial Services, Fintech, Crypto, Investment Firms, SEO, Digital Marketing, Adonomics Technologies"
+        />
+        <meta
+          property="og:title"
+          content="Financial Services | Adonomics Technologies"
+        />
+        <meta
+
+          property="og:description"
+          content="Explore our financial services designed to enhance visibility, trust, and lead generation for finance
+          firms and fintech startups."
+        />
+        <meta
+          property="og:image"
+          content="https://adonomicstechnologies.com/Logo.webp"
+        />
+        <meta property="og:url" content="https://adonomicstechnologies.com/finance" />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">

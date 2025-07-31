@@ -1,8 +1,35 @@
+import { Helmet } from "react-helmet-async";
 import SEOPageLayout from "./Layouts/SEOPageLayout";
 import { FaChartLine, FaRocket, FaBullhorn } from "react-icons/fa";
 
 export default function BeautyPage() {
   return (
+    <>
+    <Helmet>
+      <title>Beauty SEO Services | Boost Your Beauty Brand</title>
+      <meta
+        name="description"
+        content="Elevate your beauty brand with targeted SEO strategies. Get discovered by beauty lovers and increase your online visibility."
+      />
+      <meta
+        name="keywords"
+        content="Beauty SEO, Skincare SEO, Makeup Brand SEO, eCommerce SEO, Beauty Marketing"
+      />
+      <meta
+        property="og:title"
+        content="Beauty SEO Services | Boost Your Beauty Brand"
+      />
+      <meta
+        property="og:description"
+        content="Elevate your beauty brand with targeted SEO strategies. Get discovered by beauty lovers and increase your online visibility."
+      />
+      <meta
+        property="og:image"
+        content="https://adonomicstechnologies.com/Logo.webp"
+      />
+      <meta property="og:url" content="https://adonomicstechnologies.com/ecommerce/beauty" />
+      <meta property="og:type" content="website" />
+    </Helmet>
     <SEOPageLayout
       industry="Beauty"
       hero={{
@@ -60,5 +87,6 @@ export default function BeautyPage() {
         { q: "How do you measure results?", a: "We track keyword ranks, traffic, conversions, and revenue." },
       ]}
     />
+      </>
   );
 }

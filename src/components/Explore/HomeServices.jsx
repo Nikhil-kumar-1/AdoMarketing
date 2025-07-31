@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { Helmet } from "react-helmet-async";
 const HomeServices = () => {
   const homeServices = [
     {
@@ -47,6 +47,32 @@ const HomeServices = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-yellow-50 to-green-100">
+      <Helmet>
+        <title>Home Services | Adonomics Technologies</title>
+        <meta
+          name="description"
+          content="Explore our home services designed to enhance visibility and lead generation for local businesses like plumbing
+          and landscaping."
+        />
+        <meta
+          name="keywords"
+          content="Home Services, Plumbing, Roofing, Pest Control, Landscaping, SEO, Digital Marketing, Adonomics Technologies"
+        />
+        <meta
+          property="og:title"
+          content="Home Services | Adonomics Technologies"
+        />
+        <meta
+          property="og:description"
+          content="Explore our home services designed to enhance visibility and lead generation for local businesses like plumbing
+          and landscaping."
+        />
+        <meta
+          property="og:image"
+          content="https://adonomicstechnologies.com/Logo.webp"
+        />
+        <meta property="og:url" content="https://adonomicstechnologies.com/homeservices" />
+        </Helmet>
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
@@ -97,8 +123,8 @@ const HomeServices = () => {
                   <div
                     className={`flex items-center font-medium ${service.color} group-hover:underline`}
                   >
-                    <span>Coming Soon</span>
-                    {/* <svg
+                    <span>Learn More</span>
+                    <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-5 w-5 ml-2"
                       viewBox="0 0 20 20"
@@ -109,7 +135,7 @@ const HomeServices = () => {
                         d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
                         clipRule="evenodd"
                       />
-                    </svg> */}
+                    </svg>
                   </div>
                 </div>
               </Link>

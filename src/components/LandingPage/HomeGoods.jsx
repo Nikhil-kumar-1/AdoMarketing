@@ -1,8 +1,34 @@
 import SEOPageLayout from "./Layouts/SEOPageLayout";
 import { FaChartLine, FaRocket, FaBullhorn } from "react-icons/fa";
-
+import { Helmet } from "react-helmet-async";
 function HomeGoods() {
   return (
+    <>
+    <Helmet>
+      <title>Home Goods SEO Services | Boost Your Home Goods Brand</title>
+      <meta 
+        name="description"
+        content="Elevate your home goods brand with targeted SEO strategies. Get discovered by shoppers and increase your online visibility."
+      />
+      <meta
+        name="keywords"
+        content="Home Goods SEO, Home Decor SEO, Home Decor Brand SEO, eCommerce SEO, Home Goods Marketing"
+      />
+      <meta
+        property="og:title"
+        content="Home Goods SEO Services | Boost Your Home Goods Brand"
+      />
+      <meta
+        property="og:description"
+        content="Elevate your home goods brand with targeted SEO strategies. Get discovered by shoppers and increase your online visibility."
+      />
+      <meta
+        property="og:image"
+        content="https://adonomicstechnologies.com/Logo.webp"
+      />
+      <meta property="og:url" content="https://adonomicstechnologies.com/ecommerce/homegoods" />
+      <meta property="og:type" content="website" />
+    </Helmet>
     <SEOPageLayout
       industry="HomeGoods"
       hero={{
@@ -76,6 +102,7 @@ function HomeGoods() {
         },
       ]}
     />
+    </>
   );
 }
 

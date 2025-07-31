@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { Helmet } from "react-helmet-async";
 const Healthcare = () => {
   
 
@@ -21,7 +21,7 @@ const Healthcare = () => {
         "Connect with families seeking trusted elderly care solutions through optimized content and visibility.",
       image:
         "https://images.unsplash.com/photo-1513159446162-54eb8bdaa79b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      link: "/healthcare/senior-care",
+      link: "/healthcare/seniorcare",
       color: "text-yellow-600",
       bg: "bg-yellow-100",
     },
@@ -31,7 +31,7 @@ const Healthcare = () => {
         "Attract more patients looking for physical therapy with our niche-specific SEO for physiotherapists.",
       image:
         "https://images.unsplash.com/photo-1706353399656-210cca727a33?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      link: "/healthcare/physiotherapists",
+      link: "/healthcare/physio",
       color: "text-green-600",
       bg: "bg-green-100",
     },
@@ -49,6 +49,31 @@ const Healthcare = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-100">
+      <Helmet>
+        <title>Healthcare Services | Adonomics Technologies</title>
+        <meta
+          name="description"
+          content="Explore our healthcare services designed to enhance visibility and patient engagement for clinics, physiotherapists, and wellness centers."
+        />
+        <meta
+          name="keywords"
+          content="Healthcare Services, Dental Care, Senior Care, Physiotherapy, Wellness Centre, SEO, Digital Marketing, Adonomics Technologies"
+        />
+        <meta
+          property="og:title"
+          content="Healthcare Services | Adonomics Technologies"
+        />
+        <meta
+          property="og:description"
+          content="Explore our healthcare services designed to enhance visibility and patient engagement for clinics, physiotherapists, and wellness centers."
+        />
+        <meta
+          property="og:image"
+          content="https://adonomicstechnologies.com/Logo.webp"
+        />
+        <meta property="og:url" content="https://adonomicstechnologies.com/healthcare" />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">

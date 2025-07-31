@@ -1,8 +1,34 @@
 import SEOPageLayout from "./Layouts/SEOPageLayout";
 import { FaChartLine, FaRocket, FaBullhorn } from "react-icons/fa";
-
+import { Helmet } from "react-helmet-async";
 function PetShop() {
   return (
+    <>
+    <Helmet>
+      <title>Pet Shop SEO Services | Boost Your Pet Shop Brand</title>
+      <meta
+        name="description"
+        content="Elevate your pet shop brand with targeted SEO strategies. Get discovered by pet lovers and increase your online visibility."
+      />
+      <meta
+        name="keywords"
+        content="Pet Shop SEO, Pet Care SEO, Pet Products SEO, eCommerce SEO, Pet Shop Marketing"
+      />
+      <meta
+        property="og:title"
+        content="Pet Shop SEO Services | Boost Your Pet Shop Brand"
+      />
+      <meta
+        property="og:description"
+        content="Elevate your pet shop brand with targeted SEO strategies. Get discovered by pet lovers and increase your online visibility."
+      />
+      <meta
+        property="og:image"
+        content="https://adonomicstechnologies.com/Logo.webp"
+      />
+      <meta property="og:url" content="https://adonomicstechnologies.com/ecommerce/petshop" />
+      <meta property="og:type" content="website" />
+    </Helmet>
     <SEOPageLayout
       industry="Pet Shop"
       hero={{
@@ -75,6 +101,7 @@ function PetShop() {
         },
       ]}
     />
+    </>
   );
 }
 

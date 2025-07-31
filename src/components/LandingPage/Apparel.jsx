@@ -1,8 +1,36 @@
 import SEOPageLayout from "./Layouts/SEOPageLayout";
 import { FaChartLine, FaRocket, FaBullhorn } from "react-icons/fa";
+import { Helmet } from "react-helmet-async";
+import { div } from "framer-motion/m";
 
 function Apparel() {
   return (
+    <>
+    <Helmet>
+      <title>Apparel SEO Services | Boost Your Fashion Brand</title>
+      <meta
+        name="description"
+        content="Elevate your apparel brand with targeted SEO strategies. Get discovered by fashion enthusiasts and increase your online visibility."
+      />
+      <meta
+        name="keywords"
+        content="Apparel SEO, Fashion SEO, Clothing Brand SEO, eCommerce SEO, Apparel Marketing"
+      />
+      <meta
+        property="og:title"
+        content="Apparel SEO Services | Boost Your Fashion Brand"
+      />
+      <meta
+        property="og:description"
+        content="Elevate your apparel brand with targeted SEO strategies. Get discovered by fashion enthusiasts and increase your online visibility."
+      />
+      <meta
+        property="og:image"
+        content="https://adonomicstechnologies.com/Logo.webp"
+      />
+      <meta property="og:url" content="https://adonomicstechnologies.com/ecommerce/apparel" />
+      <meta property="og:type" content="website" />
+      </Helmet>
     <SEOPageLayout
       industry="Apparel"
       hero={{
@@ -75,7 +103,8 @@ function Apparel() {
           a: "We track keyword ranks, traffic, conversions, and revenue.",
         },
       ]}
-    />
+      />
+      </>
   );
 }
 

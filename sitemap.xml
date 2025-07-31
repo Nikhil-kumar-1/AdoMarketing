@@ -61,6 +61,32 @@
   <url><loc>https://adonomicstechnologies.com/uiux</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://adonomicstechnologies.com/app-development</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
+  <!-- Industries -->
+  <url><loc>https://adonomicstechnologies.com/healthcare</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://adonomicstechnologies.com/healthcare/seniorcare</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/healthcare/wellness-centre</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/healthcare/dental</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/healthcare/physio</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/ecommerce</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://adonomicstechnologies.com/ecommerce/apparel</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/ecommerce/fitness</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/ecommerce/beauty</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/ecommerce/homegoods</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/ecommerce/petshop</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/edtech</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://adonomicstechnologies.com/edtech/educator</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/edtech/coaching</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <url><loc>https://adonomicstechnologies.com/finance</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://adonomicstechnologies.com/finance/crypto</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/finance/fintech</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/finance/investment-firms</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/homeservices</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://adonomicstechnologies.com/homeservices/plumbing</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/homeservices/roofing</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/homeservices/landscaping</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://adonomicstechnologies.com/homeservices/pest-control</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
   <!-- Other pages -->
   <url><loc>https://adonomicstechnologies.com/portfolio</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://adonomicstechnologies.com/teams</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
