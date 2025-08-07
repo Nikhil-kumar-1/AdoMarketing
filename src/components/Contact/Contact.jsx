@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import {
+  FaPhone,
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaWhatsapp,
+} from "react-icons/fa";
 import { FiSend } from "react-icons/fi";
 import { Helmet } from "react-helmet-async";
 
@@ -139,7 +144,30 @@ const ContactPage = () => {
                     <h3 className="text-lg font-semibold text-gray-800">
                       Phone number
                     </h3>
-                    <p className="text-gray-600">9955669590</p>
+                    <p className="text-gray-600">+91 9955669590</p>
+                  </div>
+                </motion.div>
+
+                {/* WhatsApp */}
+                <motion.div
+                  whileHover={{ x: 5 }}
+                  className="flex items-start space-x-4"
+                >
+                  <div className="bg-green-100 p-3 rounded-full text-green-600">
+                    <FaWhatsapp className="text-xl" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-800">
+                      WhatsApp
+                    </h3>
+                    <a
+                      href="https://wa.me/16623466562"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-600 hover:text-green-600 transition-colors"
+                    >
+                      +1 (662) 346‑6562
+                    </a>
                   </div>
                 </motion.div>
 
@@ -171,10 +199,27 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-800">
-                      Address
+                      Heatquarter:
                     </h3>
                     <p className="text-gray-600">
-                      3rd Floor, H-61, Sector-63 ,Noida 201301
+                      India
+                    </p>
+                  </div>
+                </motion.div>
+
+                <motion.div
+                  whileHover={{ x: 5 }}
+                  className="flex items-start space-x-4"
+                >
+                  <div className="bg-purple-100 p-3 rounded-full text-purple-600">
+                    <FaMapMarkerAlt className="text-xl" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-800">
+                      Address:
+                    </h3>
+                    <p className="text-gray-600">
+                      111 S Grand Ave, Los Angeles, CA 90012, United States
                     </p>
                   </div>
                 </motion.div>

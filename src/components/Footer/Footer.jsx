@@ -197,16 +197,34 @@ const Footer = () => {
                 Contact Us
               </h4>
               <ul className="space-y-4">
-                <li className="flex items-start">
-                  <MdLocationOn
-                    className="text-green-400 mt-1 mr-3 flex-shrink-0"
-                    size={20}
-                  />
-                  <span className="text-gray-300">
-                    3rd Floor, H-61, Sector-63 <br />
-                    Noida 201301
-                  </span>
-                </li>
+                <ul>
+                  {/* Headquarter: India */}
+                  <li className="flex items-start mb-3">
+                    <MdLocationOn
+                      className="text-green-400 mt-1 mr-3 flex-shrink-0"
+                      size={20}
+                    />
+                    <span className="text-gray-300">
+                      <strong>Headquarter: India</strong>
+                      
+                    </span>
+                  </li>
+
+                  {/* USA Office */}
+                  <li className="flex items-start">
+                    <MdLocationOn
+                      className="text-green-400 mt-1 mr-3 flex-shrink-0"
+                      size={20}
+                    />
+                    <span className="text-gray-300">
+                      <strong> USA Office:</strong>
+                      111 S Grand Ave, 
+                      Los Angeles, CA 90012,
+                      United States
+                    </span>
+                  </li>
+                </ul>
+
                 <li className="flex items-center">
                   <MdEmail className="text-green-400 mr-3" size={20} />
                   <a
@@ -219,10 +237,22 @@ const Footer = () => {
                 <li className="flex items-center">
                   <MdPhone className="text-green-400 mr-3" size={20} />
                   <a
-                    href="tel:+9955669590"
+                    href="tel:+91 9955669590"
                     className="text-gray-300 hover:text-green-400 transition-colors"
                   >
-                    +9955669590
+                    +91 9955669590
+                  </a>
+                </li>
+                <li className="flex items-center">
+                  <MdPhone className="text-green-400 mr-3" size={20} />
+                  <p className="mr-1">WhatsApp:</p>
+                  <a
+                    href="https://wa.me/16623466562"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:text-green-400 transition-colors"
+                  >
+                    +1 (662) 346‑6562
                   </a>
                 </li>
               </ul>
